@@ -1,15 +1,11 @@
 ## 1. Can a global variable be declared as auto?
-```
 No.
 auto is used only for local variables inside functions.
 Global variables have static storage duration by default, not automatic.
-```
 ## 2Can you declare a global variable as register? Why or why not?
-```
 No.
 register variables are stored in CPU registers, not in memory.
 Global variables must have a fixed memory address, so they cannot be declared as register
-```
 ## 3 What is the lifetime and scope of a static variable?
 ```
 Lifetime: Entire program execution (it exists from start to end).
